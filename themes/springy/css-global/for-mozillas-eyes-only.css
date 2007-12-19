@@ -1,0 +1,25 @@
+/*
+ * Simplistic Mozilla-specific enhancements
+ */
+
+body {
+  background-image: url(../img/sunny.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+}
+div#rap {
+  background-image: url(../img/transp/spacer.png) !important;
+}
+div.title {
+  background-image: url(../img/transp/heading.png) !important;
+}
+div.copyright-top {
+  background-image: url(../img/transp/copyright-hi.png) !important;
+}
+div.copyright {
+  background-image: url(../img/transp/copyright-mid.png) !important;
+}
+div.copyright-bottom {
+  background-image: url(../img/transp/copyright-low.png) !important;
+}
+

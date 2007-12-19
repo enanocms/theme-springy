@@ -1,0 +1,26 @@
+input[type ^="text"], input[type ^="password"] {
+  background-image: url(../img/input.png);
+  background-repeat: repeat-x;
+  background-color: #fff5e7;
+  color: #101010;
+  /* border: 1px solid #ffb549; */
+  border: 1px solid #3e98b5;
+  padding: 2px;
+}
+input[type ^="button"] {
+  background-image: url(../img/button.png);
+  background-repeat: repeat-x;
+  background-color: #eefbff;
+  color: #101010;
+  border: 1px solid #3e98b5;
+  padding: 1px;
+}
+input[type ^="submit"] {
+  background-image: url(../img/submit.png);
+  background-repeat: repeat-x;
+  background-color: #ddf7ff;
+  color: #101010;
+  border: 1px solid #3e98b5;
+  padding: 1px;
+}
+

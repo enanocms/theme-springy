@@ -1,0 +1,38 @@
+/* Tables from St. Patty */
+div.tblholder {
+  margin: 10px 0 0 0;
+  padding: 0;
+  border: 1px solid #AAAAAA;
+  background-color: #E8E8E8;
+}
+div.tblholder td.row1 {
+  padding: 4px;
+  background-color: #E0E0E0;
+}
+div.tblholder td.row2 {
+  padding: 4px;
+  background-color: #F0F0F0;
+}
+div.tblholder td.row3 {
+  padding: 4px;
+  background-color: #E8E8E8;
+}
+div.tblholder th {
+  padding: 4px;
+  background-color: #7cb839;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+div.tblholder th.subhead {
+  padding: 4px;
+  background-color: #9ccc67;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+div.tblholder table {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+

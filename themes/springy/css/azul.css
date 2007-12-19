@@ -1,0 +1,266 @@
+/*
+ * Simplistic: a springy theme for Enano
+ * Copyright (C) 2007 Dan Fuhry
+ * 
+ * The licensing conditions for this theme package can be viewed in the file "GPL" included with this package.
+ */
+
+/* Enano imports */
+@import url("../css-global/tables.css");
+@import url("../css-global/jbox.css");
+@import url("../css-global/inputs.css");
+
+body {
+  background-color: #7dcde7;
+  font-family: lucida grande, verdana, arial, sans-serif;
+  font-size: 75%;
+}
+
+div#mainholder, div#mainholder-simple {
+  width: 718px;
+  margin: 0 auto;
+}
+
+div#mainholder-simple {
+  background-image: url(../img/simple-footer.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding: 0 0 40px 0;
+  margin-top: 50px;
+}
+
+div#rap {
+  width: 718px;
+  padding: 10px 0;
+  background-image: url(../img/spacer.png);
+  margin: 0 auto;
+}
+
+div.rap-simple {
+  padding: 0 !important;
+}
+
+/* Catch-all for links */
+
+a {
+  color: #73b22e;
+}
+
+a:hover {
+  color: #ffbb00;
+}
+
+/* Title area */
+
+div.title {
+  width: 718px;
+  height: 203px;
+  background-image: url(../img/heading.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+div.title h1.site-name {
+  margin: 0 auto;
+  padding: 70px 0 0 0;
+}
+
+/* Left sidebar
+   In this theme the left and right sidebars are dramatically different
+   So we have different divs for each side
+   */
+
+div#sidebar-left {
+  width: 206px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+div#sidebar-left div.sidebar-top {
+  height: 17px;
+  background-image: url(../img/sidebar-hi.png);
+  margin: 0;
+}
+
+div#sidebar-left div.sidebar-mid {
+  background-image: url(../img/sidebar-mid.png);
+  margin: 0;
+  padding: 4px 12px;
+}
+
+div#sidebar-left div.sidebar-bottom {
+  height: 12px;
+  background-image: url(../img/sidebar-low.png);
+  margin-bottom: 12px;
+}
+
+div#sidebar-left h4.blocktitle {
+  color: #4a6e22;
+  text-transform: uppercase;
+  border-bottom: 1px solid #6ca132;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+div#sidebar-left ul {
+  padding: 0;
+  margin: 7px 0 0 0;
+  list-style: none;
+}
+
+div#sidebar-left div.section-normal ul li a {
+  line-height: 30px;
+  display: block;
+  text-decoration: none;
+  padding: 0% 5px;
+  color: #39541a;
+  /* These are to compensate for hover effects */
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #bbe78a;
+}
+
+div#sidebar-left div.section-normal ul li a:hover {
+  background-color: #e2ffc2;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #6ca132;
+}
+
+div#sidebar-left a {
+  display: inline;
+}
+
+/* Right (logged-in-only) sidebar */
+div#right-sidebar-trigger {
+  position: fixed;
+  top: 4px;
+  right: 4px;
+}
+div#right-sidebar-trigger a {
+  color: #181818;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 8pt;
+  text-decoration: none;
+}
+
+div#right-sidebar {
+  background-color: #96E5FF;
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 4px;
+  width: 150px;
+  border: 1px solid #3e98b5;
+  padding: 7px;
+}
+
+div#right-sidebar ul {
+  padding: 0;
+  margin: 7px 0 0 0;
+  list-style: none;
+}
+
+div#right-sidebar h4.blocktitle {
+  color: #224a6e;
+  text-transform: uppercase;
+  border-bottom: 1px solid #2c5f8e;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+div#right-sidebar div.sidebar-mid {
+  padding: 4px 0;
+}
+
+div#right-sidebar div.section-normal a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 5px 3px;
+}
+
+div#right-sidebar div.section-normal a:hover {
+  background-color: #cdf3ff;
+}
+
+/* Page title on simple theme */
+
+h2.simple-title {
+  margin: 0;
+  padding: 0 50px;
+  line-height: 134px;
+  background-image: url(../img/simple-header.png);
+}
+
+/* Copyright bar */
+
+div.copyright-top {
+  height: 11px;
+  width: 718px;
+  background-image: url(../img/copyright-hi.png);
+  clear: both;
+}
+div.copyright {
+  width: 622px; /* 718px - 96px of padding */
+  background-image: url(../img/copyright-mid.png);
+  padding: 4px 48px;
+  font-family: verdana, sans-serif;
+  text-transform: lowercase;
+  color: white;
+}
+div.copyright a {
+  color: #c9ff8e;
+  text-decoration: none;
+}
+div.copyright a:hover {
+  color: #ffbb00;
+}
+div.copyright-bottom {
+  height: 53px;
+  width: 718px;
+  background-image: url(../img/copyright-low.png);
+}
+
+/* Content area */
+
+div.content-holder {
+  padding: 4px 33px;
+}
+
+div.content-holder a {
+  color: #73b22e;
+}
+
+div.content-holder a:hover {
+  color: #ffbb00;
+  border-bottom: 1px dotted #73b22e;
+}
+
+div.mdg-comment {
+  background-color: #fffcfa;
+}
+
+div.content-inner {
+  margin: 0 0 0 10px;
+}
+
+div.content-inner h2#h2PageName {
+  border-bottom: 1px solid #8fd542;
+  margin: 0;
+}
+
+div.content-inner blockquote {
+  margin-left: 2em;
+  border-left: 5px solid #8fd542;
+  padding-left: 10px;
+  background-image: url(../img/blockquote.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  min-height: 49px; /* To make sure entire quote mark is showing */
+  font-style: italic;
+}
+div.content-inner blockquote em, div.content-inner blockquote i {
+  font-style: normal;
+}
+
