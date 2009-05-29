@@ -4,7 +4,7 @@ var setpos_sidebar_right = function()
     var top = getScrollOffset();
   else
     var top = 0;
-  top += ( IE ? 4 : $('right-sidebar-trigger').Top() ) + $('right-sidebar-trigger').Height();
+  top += ( IE ? 4 : $dynano('right-sidebar-trigger').Top() ) + $dynano('right-sidebar-trigger').Height();
   var thediv = document.getElementById('right-sidebar');
   thediv.style.position = ( IE ) ? 'absolute' : 'fixed';
   thediv.style.top = top + 'px';
@@ -31,7 +31,7 @@ function sidebar_right_open()
   if ( getWidth() < 1084 )
   {
     // small window, so move the main divs over to the left to make use of that padded area
-    $('mainholder').object.style.margin = '0';
+    $dynano('mainholder').object.style.margin = '0';
   }
 }
 
@@ -48,7 +48,7 @@ function sidebar_right_close()
       break;
     }
   }
-  $('mainholder').object.style.margin = '0 auto';
+  $dynano('mainholder').object.style.margin = '0 auto';
 }
 
 function sidebar_right_toggle()

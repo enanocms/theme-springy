@@ -11,5 +11,6 @@
       </div>
       <div class="copyright-bottom"></div>
     </div>
+    {JS_FOOTER}
   </body>
 </html>
